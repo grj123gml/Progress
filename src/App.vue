@@ -1,5 +1,11 @@
 <template>
-  <div></div>
+  <div>
+    <fz-Progress type="success"></fz-Progress>
+    <br />
+    <fz-Progress percent="40" type="fail"></fz-Progress>
+    <br />
+    <fz-Progress percent="80"></fz-Progress>
+  </div>
 </template>
 
 <script>
